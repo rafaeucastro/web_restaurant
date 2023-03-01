@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Entre em contato conosco</h1>
+    <h3>Preencha o formulário abaixo.</h3>
+ <form action="" method="post">
+        <label for="nome">Nome: </label>
+        <input type="texto" id="nome", name="nome_usuario"><br><br>
+        <label for="email">E-mail: </label>
+        <input type="email" id="email", name="email_usuario"><br><br>
+        <label for="telefone">Telefone: </label>
+        <input type="tel" id="telefone", name="telefone_usuario"><br><br>
+        <label for="endereço">Endereço: </label>
+        <input type="texto" id="endereço", name="endereço_usuario"><br><br>
+        <label for="feedback">Qual o seu nível de satisfação quanto ao nosso serviço?</label><br><br>
+        <input type="radio" id="péssimo" name="feedback" value="1">
+        <label for="péssimo">Péssimo</label>
+        <input type="radio" id="regular" name="feedback" value="2">
+        <label for="regular">Regular</label>
+        <input type="radio" id="ótimo" name="feedback" value="3">
+        <label for="ótimo">Ótimo</label><br><br>
+        <label for="dropdown">Quantos pratos diferentes você já provou em nosso restaurante?  </label>
+        <select name="dropdown" id="dropdown">
+            <option value="1">um</option>
+            <option value="2">dois</option>
+            <option value="3">três</option>
+            <option value="4">quatro</option>
+            <option value="5+">5 ou mais</option>
+        </select><br><br>
+        <label for="arquivo">Envie aqui o arquivo que achar relevante:</label><br>
+        <input type="file" name="arquivo" id="file"><br><br>
+        <label for="feedback">Descreva a sua experiência ou dúvida</label><br>
+        <textarea name="feedback" id="opinion" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Enviar formulário">
+ </form>   
+</body>
+</html>
